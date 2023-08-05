@@ -18,6 +18,10 @@ Apesar de se importar muito com seus cãezinhos, Eduardo quer gastar o mínimo p
 - Dias de semana e dias úteis são representados pelo seguinte intervalo de dias da semana: [segunda-feira, sexta-feira];
 - Os pet shops não possuem limite de lavagens diárias;
 - O Senhor Eduardo, dono do canil, irá a apenas a um pet shop na data selecionada, portanto, não poderá haver soluções que combinem múltiplos petshops
-  > "O melhor petshop será o que oferecer menorespreços, em caso de empate o melhor é o mais próximo do canil."
+  > "O melhor petshop será o que oferecer menores preços, em caso de empate o melhor é o mais próximo do canil."
+
+## Decisões de desenvolvimento
+- A fim de separar os dados da aplicação e propor maior escalabilidade à solução, as informações dos pet shops foram colocadas em arquivos do diretório [petShops](/petShops)
+  - Para cada pet shop foi criado um arquivo contento suas respectivas informações (nome, distância e tabela de preços)
 
 # Como executar?
