@@ -22,6 +22,9 @@ Apesar de se importar muito com seus cãezinhos, Eduardo quer gastar o mínimo p
 
 ## Decisões de desenvolvimento
 - A fim de separar os dados da aplicação e propor maior escalabilidade à solução, as informações dos pet shops foram colocadas em arquivos do diretório [petShops](/petShops)
-  - Para cada pet shop foi criado um arquivo contento suas respectivas informações (nome, distância e tabela de preços)
-
-# Como executar?
+  - Para cada pet shop foi criado um arquivo contento suas respectivas informações (nome, distância e tabela de preços). A seguir, a estruturação dos dados nos arquivos:
+```
+<nome do pet shop>
+<distancia>
+<tabela de preços em formato CSV>
+```
