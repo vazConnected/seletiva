@@ -12,7 +12,7 @@ Apesar de se importar muito com seus cãezinhos, Eduardo quer gastar o mínimo p
 - Entrada: <data> <quantidade de cães pequenos> <quantidade cães grandes>
   - Exemplo: ```03/08/2018 3 5```
 - Saída: Nome do melhor canil e preço total dos banhos.
-  - Exemplo: ```"Meu Canino Feliz" 100.00```
+  - Exemplo: ```Meu Canino Feliz 100.00```
 
 ## Premissas e considerações
 - Dias de semana e dias úteis são representados pelo seguinte intervalo de dias da semana: [segunda-feira, sexta-feira];
@@ -22,9 +22,16 @@ Apesar de se importar muito com seus cãezinhos, Eduardo quer gastar o mínimo p
 
 ## Decisões de desenvolvimento
 - A fim de separar os dados da aplicação e propor maior escalabilidade à solução, as informações dos pet shops foram colocadas em arquivos do diretório [petShops](/petShops)
-  - Para cada pet shop foi criado um arquivo contento suas respectivas informações (nome, distância e tabela de preços). A seguir, a estruturação dos dados nos arquivos:
+  - Para cada pet shop foi criado um arquivo contendo suas respectivas informações (nome, distância e tabela de preços). A seguir, a estruturação dos dados nos arquivos:
 ```
 <nome do pet shop>
 <distancia>
+dia,porte,preco
 <tabela de preços em formato CSV>
 ```
+## Como executar?
+Acesse o [release](https://github.com/vazConnected/seletiva/releases/tag/release), faça o download do `.jar` e siga as instruções indicadas.
+
+Alternativamente, é possível realizar o download do código fonte e executá-lo em sua IDE de preferência.
+
+**Não se esqueça de colocar a pasta `petShops` no diretório raiz com os arquivos devidamente formatados.**
